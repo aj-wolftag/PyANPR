@@ -4,7 +4,7 @@ import numpy as np
 import imutils
 import easyocr
 
-img = cv2.imread('')
+img = cv2.imread('vehicle_car_9.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 #cv2.imshow('original img',gray)
 
